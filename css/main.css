@@ -18,10 +18,10 @@ a {
 .member2 {
     background-color: #edffeb;
 }
-.member3{
+.member3 {
     background-color: #f3eaf1;
 }
-.member4{
+.member4 {
     background-color: #e0daf7;
 }
 /* 전체 레이아웃 */
@@ -85,6 +85,9 @@ section {
     background: linear-gradient(45deg, #10fcf0, #7592fc);
     box-shadow: 3px 3px 20px 0px rgba(0, 255, 255, 0.4);
     border-radius: 24px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 /* member2 더보기 */
 .member2 .btn-view {
