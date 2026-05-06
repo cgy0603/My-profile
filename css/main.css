@@ -56,7 +56,6 @@ section {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    background-image: ;
 }
 .profile-img img {
     width: 100%;
@@ -88,7 +87,7 @@ section {
     border-radius: 24px;
     font-family: "Story Script", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px;`
 }
 /* member2 더보기 */
 .member2 .btn-view {
@@ -108,7 +107,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
 }
 .contact li {
     display: flex;

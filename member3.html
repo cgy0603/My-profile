@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>멤버 3</title>
-        <link rel="icon" href="images/member3.jpg" />
+        <link rel="icon" href="images/프로필3.gif" />
         <link rel="stylesheet" href="css/main.css" />
         <!-- 폰트어썸 cdn -->
         <link
@@ -15,10 +15,9 @@
             referrerpolicy="no-referrer"
         />
         <!-- 구글폰트 -->
-       <style>
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
-</style>
-
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Story+Script&display=swap");
+        </style>
     </head>
     <body class="member3">
         <!-- 전체 레이아웃 -->
@@ -34,7 +33,7 @@
             <div class="profile">
                 <!-- 이미지 -->
                 <div class="profile-img">
-                    <img src="images/프로필3.gif" alt="수정3" />
+                    <img src="images/프로필3.gif" alt="수정3" id="gif" />
                 </div>
                 <!-- 이름 -->
                 <div class="profile-name">
@@ -69,5 +68,11 @@
                 <a href="member4.html"></a>
             </nav>
         </section>
+        <script>
+            const gif = document.getElementById("gif");
+            setInterval(() => {
+                gif.src = "images/프로필3.gif?" + new Date().getTime();
+            }, 3000); // GIF 길이에 맞게 조절
+        </script>
     </body>
 </html>
