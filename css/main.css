@@ -56,6 +56,7 @@ section {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
+    background-image: ;
 }
 .profile-img img {
     width: 100%;
@@ -91,7 +92,7 @@ section {
 }
 /* member2 더보기 */
 .member2 .btn-view {
-    background: linear-gradient(45deg, #89ee91, #68e673);
+    background: linear-gradient(45deg, #abfdb1, #68e973);
     box-shadow: 3px 3px 20px 0px rgba(0, 255, 255, 0.4);
 }
 .member3 .btn-view {
